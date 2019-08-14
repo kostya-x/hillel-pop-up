@@ -1,0 +1,86 @@
+.test-content {
+  width: 80vw;
+  margin: 0 auto;
+  font-size: 24px;
+}
+.popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(35, 52, 69, 0.5);
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+}
+.popup__body {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 670px;
+  height: 1003px;
+  box-shadow: 0 10px 60px rgba(219, 225, 237, 0.3);
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+.popup__close-button {
+  position: absolute;
+  top: 32px;
+  right: 31px;
+  transform: translate(0, -50%);
+  width: 16px;
+  height: 17px;
+  color: #fe8502;
+  border: 0;
+  background: rgba(255, 255, 255, 0);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.popup__face {
+  position: absolute;
+  top: 210px;
+  left: 157px;
+}
+.popup__text-wrapper {
+  margin: 0 auto;
+  padding-top: 559px;
+}
+.popup__title {
+  color: #000000;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+.popup__text {
+  width: 291px;
+  height: 73px;
+  padding-top: 32px;
+  color: #979fae;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  margin: 0 auto;
+}
+.popup__chat-button {
+  width: 170px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  bottom: 211px;
+  transform: translate(-50%, 0);
+  border-radius: 25px;
+  background-color: #fe8502;
+  border: 0;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
