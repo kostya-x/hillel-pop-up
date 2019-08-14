@@ -22,9 +22,13 @@
   transform: translate(-50%, -50%);
   width: 670px;
   height: 1003px;
+  padding-top: 210px;
+  text-align: center;
+  box-sizing: border-box;
   box-shadow: 0 10px 60px rgba(219, 225, 237, 0.3);
   border-radius: 15px;
   background-color: #ffffff;
+
 }
 .popup__close-button {
   position: absolute;
@@ -40,14 +44,10 @@
   font-weight: 400;
   line-height: 30px;
 }
-.popup__face {
-  position: absolute;
-  top: 210px;
-  left: 157px;
-}
 .popup__text-wrapper {
   margin: 0 auto;
-  padding-top: 559px;
+  padding-top: 91px;
+  padding-bottom: 51px;
 }
 .popup__title {
   color: #000000;
@@ -71,10 +71,6 @@
 .popup__chat-button {
   width: 170px;
   height: 50px;
-  position: absolute;
-  left: 50%;
-  bottom: 211px;
-  transform: translate(-50%, 0);
   border-radius: 25px;
   background-color: #fe8502;
   border: 0;
